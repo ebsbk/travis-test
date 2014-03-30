@@ -13,4 +13,6 @@ gem 'jquery-rails'
 
 group :test do
   gem 'rake'
+  gem 'rspec'
+  gem 'rspec-rails'
 end
