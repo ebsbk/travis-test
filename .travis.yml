@@ -2,3 +2,10 @@ language: ruby
 rvm:
   - 1.9.3
 script: bundle exec rspec
+deploy:
+  provider: heroku
+  api_key:
+    secure: JWHCFfNjRG82wwruuu5zHEPkmqILmkuaxzY1jw5jz/D+u0GppU7ia9pVrP+Sb2pC6R+WPGC95JoZoXYGsuRoKB8i48wJ/9CLPlkwv+ovYTVrfuw3cegsVPvg8jaCGhWdPiCm2akN14D2G1QFsGk9bRowi8fZbmtnii0zgEJnbNc=
+  app: floating-anchorage-6594
+  on:
+    repo: ebsbk/travis-test

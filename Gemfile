@@ -17,6 +17,7 @@ end
 
 group :development do
   gem 'sqlite3'
+  gem 'travis'
 end
 
 group :test do
